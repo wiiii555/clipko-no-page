@@ -1,0 +1,73 @@
+body {
+  width: 50em;
+  margin: 0 auto;
+  background-color: #f0d6bf;
+  background-image: url(../images/Si.png);
+  background-repeat: repeat;
+  background-size: 16em;
+}
+
+h1 {
+  color: black;
+  font-size: 3em;
+  text-align: center;
+}
+figcaption {
+  color: gray;
+  font-size: small;
+}
+article > p {
+  font-size: medium;
+}
+
+ul {
+  display: flex;
+  background-color: rgba(80, 120, 210, 0.5);
+  list-style-type: none;
+  width: 40em;
+  margin: auto;
+  padding: 0.5em;
+}
+
+li {
+  margin: 0.5em;
+}
+
+input {
+  padding: 4px;
+}
+
+main {
+  width: 40em;
+  margin: 0.5em;
+}
+
+img {
+  padding: 2px;
+  width: 150px;
+  height: 150px;
+}
+
+.middle {
+  margin: 40px 20px;
+  padding: 40px 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: #c97c81 solid 1px;
+}
+
+.intro::first-letter {
+  font-weight: bold;
+  font-size: larger;
+}
+
+canvas {
+  border: 1px solid;
+  margin: 0 20px;
+  background-color: whitesmoke;
+}
+
+.jquery-test {
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+}
